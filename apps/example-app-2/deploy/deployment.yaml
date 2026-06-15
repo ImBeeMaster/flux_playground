@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-2
-        image: beemaster/my-app-1:1.0.3
+        image: beemaster/my-app-1:1.0.3 # {"$imagepolicy": "default:beemaster/my-app-1"}
         ports:
         - containerPort: 5000
         volumeMounts:
