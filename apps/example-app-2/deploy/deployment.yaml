@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-2
-        image: beemaster/my-app-1:1.0.3 # {"$imagepolicy": "flux-system:example-app-2"}
+        image: beemaster/my-app-1:1.0.5 # {"$imagepolicy": "flux-system:example-app-2"}
         ports:
         - containerPort: 5000
         volumeMounts:
