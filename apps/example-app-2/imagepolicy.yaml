@@ -1,11 +1,11 @@
-apiVersion: image.toolkit.fluxcd.io/v1beta2
+apiVersion: image.toolkit.fluxcd.io/v1
 kind: ImagePolicy
 metadata:
   name: example-app-2
-  namespace: default
+  namespace: flux-system
 spec:
   imageRepositoryRef:
     name: example-app-2
   policy:
     semver:
-      range: 0.0.x
+      range: 1.0.x
